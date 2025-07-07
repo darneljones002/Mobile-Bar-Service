@@ -22,7 +22,7 @@ function LandingPage() {
           Pour Vibes ATL
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl mb-8">
-          Atlanta's artsy mobile bar experience 🍹🎨
+          Atlanta's premier mobile bar experience 🍹🎨
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4 w-full">
           <a
