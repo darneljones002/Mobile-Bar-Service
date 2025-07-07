@@ -1,16 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        earth: {
-          light: "#e5e2d6",
-          medium: "#f1d782",
-          dark: "#966639",
-          green: "#c5a468",
-          clay: "#000000",
-        },
+        "earth-light": "#e5e2d6", // your light cream
+        "earth-dark": "#000000", // black
+        gold: "#f1d782",
+        "golden-brown": "#c5a468",
+        "earth-brown": "#966639",
       },
     },
   },
